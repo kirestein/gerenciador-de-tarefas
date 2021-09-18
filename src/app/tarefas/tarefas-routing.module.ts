@@ -6,7 +6,7 @@ import { EditarTarefaComponent } from "./editar-tarefa";
 export const TarefaRoutes: Routes = [
   {
     path: 'tarefas',
-    redirectTo: 'tarefas/listas-tarefa'
+    redirectTo: 'tarefas/listar-tarefa'
   },
   {
     path: 'tarefas/listar-tarefa',
